@@ -3,7 +3,8 @@
 
 # Core ML / Detection
 ultralytics>=8.2.0          # Ultralytics YOLO (includes torch, torchvision)
-opencv-python>=4.9.0        # OpenCV for image/video I/O and drawing
+# opencv-python>=4.9.0
+opencv-python-headless
 
 # Web UI
 streamlit>=1.35.0           # Streamlit UI framework
