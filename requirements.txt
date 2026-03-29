@@ -1,0 +1,19 @@
+# ─── YOLO Vision — Python Dependencies ───────────────────────────────────────
+# Install with: pip install -r requirements.txt
+
+# Core ML / Detection
+ultralytics>=8.2.0          # Ultralytics YOLO (includes torch, torchvision)
+opencv-python>=4.9.0        # OpenCV for image/video I/O and drawing
+
+# Web UI
+streamlit>=1.35.0           # Streamlit UI framework
+Pillow>=10.3.0              # Image format support for Streamlit
+
+# API Server
+fastapi>=0.111.0            # FastAPI framework
+uvicorn[standard]>=0.29.0   # ASGI server for FastAPI
+python-multipart>=0.0.9     # Multipart form uploads for FastAPI
+
+# Data & Utils
+numpy>=1.26.0               # Array operations
+pandas>=2.2.0               # DataFrame for detection tables (Streamlit)

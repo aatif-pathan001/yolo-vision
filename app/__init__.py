@@ -1,0 +1,1 @@
+"""YOLO Vision application package."""
